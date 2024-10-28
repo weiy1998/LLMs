@@ -23,3 +23,30 @@ RAG 的优势：
 ```
 
 ![rag流程图](./images/rag_flow.png)
+
+## 软件依赖安装
+
+- langchain安装
+
+``` bash
+pip install langchain
+pip install langchain-core
+pip install langchain-community
+```
+
+- ollama安装
+
+``` bash
+# linux
+curl -fsSL https://ollama.com/install.sh | sh
+
+# 下载并运行qwen2.5:14b；模型存放位置：/usr/share/ollama/.ollama/models
+ollama run qwen2.5:14b
+```
+
+
+
+
+
+
+
